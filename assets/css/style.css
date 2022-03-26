@@ -181,27 +181,29 @@ main p{
 }
 
 
+
+
 footer{
     display: flex;
     flex-wrap: wrap;
+    padding: 8px 0px 0px;
+    margin: 0px 0px 0px;
+    color: var(--Orange);    
 }
-
-footer h2 {
+footer h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20PX;
-    padding: 8px 0px 0px;
-    margin: 0px 99px 0px;
-    color: var(--Orange);
-    
-}
-
-footer p {
-    padding: 8px 0px 0px;
-    margin: 20px 99px 16px;
-
 
 }
 
+
+footer a{
+    font-size: 15px;
+    padding: 0px 10px 0px;
+    margin: 0px 0px 0px;
+    justify-content: center;
+
+}
 
 @media screen and (max-width: 992px) {
 
