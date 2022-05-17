@@ -199,7 +199,7 @@ footer{
     color: var(--Orange);    
 }
 footer h2{
-    padding: 0px 60px 21px;
+    text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20PX;
     font-weight: bold;
@@ -215,6 +215,10 @@ footer a{
     margin: 0px 0px 0px;
     justify-content: center;
 
+}
+
+#CV {
+    position: fixed;
 }
 
 @media screen and (max-width: 992px) {
@@ -234,11 +238,11 @@ footer a{
     }
     #work1 {
         min-width: 0px;
-    
+        
     }
-
-
-  }
+    
+    
+}
 
 
 @media screen and (max-width: 768px) {
